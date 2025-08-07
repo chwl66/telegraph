@@ -181,6 +181,18 @@ async function handleRootRequest(request, USERNAME, PASSWORD, enableAuth) {
               <div id="cacheContent" style="display: none;"></div>
           </form>
       </div>
+
+        <p style="font-size: 16px; text-align: center;">
+          支持大部分文件格式，包括且不限于图片，视频，文档等
+        </p>
+        <p style="font-size: 14px; text-align: center;">
+          可多选文件上传，文件大小需 ≤ 20MB 
+        </p>
+        <p>
+        <p style="font-size: 18px; color:green;text-align: center;">
+          长期 | 安全 | 稳定 | 免费
+        </p>
+        
       <p class="project-link">项目开源于 GitHub - <a href="https://github.com/0-RTT/telegraph" target="_blank" rel="noopener noreferrer">0-RTT/telegraph</a></p>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="application/javascript"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.2.7/js/fileinput.min.js" type="application/javascript"></script>
