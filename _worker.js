@@ -53,9 +53,9 @@ async function handleRootRequest(request, USERNAME, PASSWORD, enableAuth) {
   <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Telegraph图床-基于Workers的图床服务">
+  <meta name="description" content="随意文件床-基于Workers、TG的文件床服务">
   <meta name="keywords" content="Telegraph图床,Workers图床, Cloudflare, Workers,telegra.ph, 图床">
-  <title>Telegraph图床-基于Workers的图床服务</title>
+  <title>随意文件床-基于Workers、TG的文件床服务</title>
   <link rel="icon" href="https://p1.meituan.net/csc/c195ee91001e783f39f41ffffbbcbd484286.ico" type="image/x-icon">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.1/cerulean/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.2.7/css/fileinput.min.css" rel="stylesheet" />
@@ -162,7 +162,7 @@ async function handleRootRequest(request, USERNAME, PASSWORD, enableAuth) {
 <body>
   <div class="background" id="background"></div>
   <div class="card">
-      <div class="title">Telegraph图床</div>
+      <div class="title">随意文件床</div>
       <button type="button" class="btn" id="viewCacheBtn" title="查看历史记录"><i class="fas fa-clock"></i></button>
       <button type="button" class="btn" id="compressionToggleBtn"><i class="fas fa-compress"></i></button>
       <div class="card-body">
